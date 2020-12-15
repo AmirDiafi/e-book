@@ -1,0 +1,39 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "this is e-book store, nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "client-build": "npm run build --prefix client",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Amir Diafi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirDiafi/filecloud/issues"
+  },
+  "homepage": "https://github.com/AmirDiafi/filecloud#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "aws-sdk": "^2.783.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "concurrently": "^5.3.0",
+    "connect-mongodb-session": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.8",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "socket.io": "^2.3.0"
+  }
+}

@@ -1,0 +1,21 @@
+header {
+    height: 50vh;
+    position: relative;
+    background: url('../../assets/image-1.jpeg') center center no-repeat;
+    background-size: cover;
+    margin: 0 auto 50px
+}
+
+header .logo {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+}
+
+header .logo a{
+    font-size: 25px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    cursor: pointer
+}

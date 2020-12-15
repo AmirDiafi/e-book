@@ -1,0 +1,10 @@
+.secondary-bar {
+    margin: 0 auto 20px;
+    padding: 10px;
+    background: black;
+}
+
+.secondary-bar a {
+    color: #fff;
+    font-size: 25px
+}

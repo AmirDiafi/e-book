@@ -1,0 +1,91 @@
+.book-card hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg,transparent, #00ffe7, transparent);
+    margin: 5px auto;
+}
+
+.book-card .content h4{
+    margin: 0 auto 5px
+}
+
+.book-card .content .card {
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+    margin: 30px auto;
+    filter: drop-shadow(2px 2px 6px black)
+}
+
+.book-card .content .card .head {
+    border-radius: 10px;
+    background: black;
+    position: relative
+}
+
+.book-card .content .card .head .img,
+.overlay {
+    border-radius: 10px !important
+}
+
+.book-card .content .card .head .img img{
+    border-radius: 10px;
+    width:100%;
+    height: 400px;
+}
+
+.book-card .content .card .body{
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    bottom: -45px;
+    left: 0;
+    background: linear-gradient(-360deg, black 50%, rgba(0,0,0,.1));
+    color: #fff;
+    padding: 10px 10px 0;
+    z-index: 2
+}
+
+.book-card .content .card .body .rates {
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.book-card .content .card ul.info li {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #00ffe7;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.book-card .content .card ul.info li span {
+    color: #fff
+}
+
+.book-card .content .desc {
+    margin: 120px auto 50px;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+    padding: 10px;
+}
+
+@media(min-width: 450px) {
+   .book-card .content .desc {
+        width: 100%
+   }
+
+}
+
+@media(max-width: 450px) {
+    .book-card .content .card {
+        width: 100% 
+    }
+
+}
+
+

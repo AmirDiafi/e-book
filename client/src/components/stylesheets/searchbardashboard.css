@@ -1,0 +1,165 @@
+.searchbar-dashboard {
+    margin:20px auto;
+    padding: 10px;
+}
+
+.searchbar-dashboard .form {
+    margin:20px auto;
+    padding: 10px;
+}
+
+.searchbar-dashboard .form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar-dashboard .form form button {
+    margin: 0;
+    float: right;
+    color: #fff;
+    background-color: #1976bf;
+    border-radius: 5px 30px 30px 5px
+}
+
+.searchbar-dashboard .form form input {
+    margin-left: 5px;
+    border-radius: 30px 5px 5px 30px;
+}
+
+.searchbar-dashboard .result {
+    margin: 10px auto;
+    background: #000000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2
+}
+
+.searchbar-dashboard .result hr {
+    border-color: #fff;
+}
+
+.searchbar-dashboard .result .info {
+    text-align: left;
+    margin: 0
+}
+
+.searchbar-dashboard .result .info > li {
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.searchbar-dashboard .result .info li .rates {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: gold;
+}
+
+.searchbar-dashboard .result .info li span {
+    font-weight: bold;
+}
+
+.searchbar-dashboard .result .edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar-dashboard .result .edit > button {
+    width: 100%;
+}
+
+.searchbar-dashboard .result .edit button:first-child {
+    border-radius: 30px 5px 5px 30px;
+    border: 1px solid red;
+    color: red
+}
+
+.searchbar-dashboard .result .edit button:last-child {
+    border-radius: 5px 30px 30px 5px;
+}
+
+.searchbar-dashboard .result .confirm-delete {
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #0b0b0bc5;
+    color: #fff;
+    width:100%;
+    height: 100%
+}
+
+.searchbar-dashboard .result .confirm-delete h5{
+    margin-top: 83px;
+    margin-bottom: 30px;
+}
+
+.searchbar-dashboard .result .confirm-delete .the-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar-dashboard .result .confirm-delete form {
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px
+}
+
+.searchbar-dashboard .result .confirm-delete form button{
+    border-radius: 30px;
+    border: 1px solid red;
+    color: red
+}
+
+.searchbar-dashboard .result .confirm-delete .cancel {
+    margin: 0 5px
+}
+
+.searchbar-dashboard .result .confirm-delete .cancel button{
+    border-radius: 30px;
+}
+
+.searchbar-dashboard .result .edit-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+.searchbar-dashboard .result .edit-form .cancel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.searchbar-dashboard .result .edit-form form {
+    width: 60%;
+    margin: auto;
+}
+
+.searchbar-dashboard .result .edit-form input,
+.searchbar-dashboard .result .edit-form select {
+    border-radius: 30px;
+    width:60%;
+    margin: 5px auto
+}
+
+.searchbar-dashboard .result .edit-form button {
+    border-radius: 30px;
+    margin: 15px auto
+}
+
+.searchbar-dashboard .result .edit-form label {
+    margin: auto 5px
+}

@@ -1,0 +1,37 @@
+.login-form form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background: #001d33;
+    color: #fff;
+    padding:0 0 10px;
+    width: 400px;
+}
+
+.login-form form h4 {
+    margin: 0;
+    background: #2196F3;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px
+}
+
+.login-form form hr{
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg,transparent,#007bff,transparent)
+}
+
+.login-form form input {
+    width:80%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.login-form form button{
+    border-radius: 30px;
+    width: 120px
+}

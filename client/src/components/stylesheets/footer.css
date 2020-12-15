@@ -1,0 +1,64 @@
+.footer {
+    margin: 50px 0 0;
+    padding: 10px;
+    background: #000
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(45deg,transparent, white, transparent) !important
+}
+
+.footer .info ul{
+    margin-bottom: 25px
+}
+
+.footer .info ul.contact li {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+    margin: 5px 0;
+}
+
+.footer .info ul.contact li,
+.footer .info ul.contact li a{
+    color: #fff
+}
+
+.footer .info ul.contact li svg {
+    border-right: 1px solid #bbb;
+    margin-right: 5px;
+    padding-right: 2px;
+    color: #00ffe7;
+}
+
+.footer .info ul.social-network {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer .info ul.social-network li a{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #bbb;
+    padding: 10px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ffe7
+}
+
+.footer .location-map iframe{
+    border: 1px solid #bbb;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.footer footer {
+    color: #bbb;
+    padding: 0 0 10px;
+}

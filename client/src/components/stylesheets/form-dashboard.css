@@ -1,0 +1,116 @@
+.form-dahsboard {
+    margin: 100px auto 50px;
+    padding: 10px
+}
+
+.form-dahsboard form > label {
+    width: 60%;
+}
+
+
+.form-dahsboard select,
+form-dashboard textarea{
+    border-radius: 30px
+}
+
+.form-dahsboard input {
+    margin: 10px auto;
+    border-radius: 30px
+}
+
+.form-dahsboard .image-file {
+    position: relative;
+    margin: 10px auto
+}
+
+.form-dahsboard .image-file input {
+    width:50%;
+    height: 100%;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top:30%;
+    left:0;
+}
+
+.form-dahsboard .image-file label {
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+    padding: 5px;
+    width:50%;
+}
+
+.form-dahsboard .isExist {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.form-dahsboard .isExist h5 {
+    font-size: 15px
+}
+
+.form-dahsboard .isExist label {
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.form-dahsboard .isExist label input {
+    width: 30px;
+    height: 16px;
+}
+
+.form-dahsboard .rates .stars{
+    margin: 10px auto;
+    text-align:center;
+    transform: rotateY(180deg)
+}
+
+.form-dahsboard .rates .stars label {
+    position: relative;
+    margin: 10px 2px;
+    font-size: 20px
+}
+
+.form-dahsboard .rates .stars input{
+    display: none;
+}
+
+.form-dahsboard .rates .stars label::before {
+    content: "⭐";
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: block;
+    filter: brightness(0)
+}
+
+.form-dahsboard .rates .stars label::after {
+    content: "⭐";
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: all .1s linear
+}
+
+.form-dahsboard .rates .stars label:hover::after,
+.form-dahsboard .rates .stars label:hover ~ label::after,
+.form-dahsboard .rates .stars input:checked ~ label::after {
+    opacity: 1;
+}
+
+.form-dahsboard .submit {
+    margin: 20px auto;
+}
+
+.form-dahsboard .submit button {
+    width: 120px;
+    border-radius: 30px;
+}

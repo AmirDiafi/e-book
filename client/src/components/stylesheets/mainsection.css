@@ -1,0 +1,18 @@
+section.main-section hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(45deg,transparent, #bbb, transparent);
+    margin: 15px auto 40px
+}
+
+section.main-section h2 {
+    margin: 0 auto
+}
+
+section.main-section .cards {
+    flex-wrap: wrap;
+}
+
+section.main-section .cards .card{
+    margin-bottom: 35px
+}
